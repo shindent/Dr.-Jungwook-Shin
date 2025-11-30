@@ -12,7 +12,10 @@
 <meta name="author" content="Dr. Jungwook Shin">
 <meta name="robots" content="index, follow">
 
-<!-- Open Graph for SNS -->
+<!-- Sitemap -->
+<link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
+
+<!-- Open Graph -->
 <meta property="og:title" content="Dr. Jungwook Shin | Seoul Dental">
 <meta property="og:description" content="서울대 출신 치과의사 · Toronto/Markham에서 10년 이상 임상경험, 토론토 치과 전문 진료">
 <meta property="og:url" content="https://shindent.github.io/Dr.-Jungwook-Shin/">
@@ -26,6 +29,34 @@
 <!-- Google Search Verification -->
 <meta name="google-site-verification" content="brdjVONb5MaXDJh_kYLj4p8crfpfnOJzqsOx-JZg0oE" />
 
+<!-- ============= JSON-LD Dentist Schema (SEO 핵심) ============= -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Seoul Dental",
+  "image": "https://shindent.github.io/Dr.-Jungwook-Shin/preview.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "7191 Yonge St Suite 611",
+    "addressLocality": "Markham",
+    "addressRegion": "ON",
+    "postalCode": "L3T 0C4",
+    "addressCountry": "CA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "43.8225243",
+    "longitude": "-79.4271169"
+  },
+  "url": "https://shindent.github.io/Dr.-Jungwook-Shin/",
+  "telephone": "+1-437-299-7654",
+  "priceRange": "$$",
+  "description": "Seoul National University graduate Dr. Jungwook Shin with 10+ years clinical experience in Toronto. Offering implants, orthodontics, whitening, and family dentistry.",
+  "openingHours": "Mo,Tu,We,Th,Fr 09:00-18:00",
+  "sameAs": []
+}
+</script>
 <!-- ================================================== -->
 
 <style>
@@ -113,7 +144,6 @@
     iframe {
         width: 100%;
         height: 350px;
-        max-height: 60vh;
         border: none;
         border-radius: 8px;
         margin-top: 15px;
@@ -235,4 +265,3 @@ function showEN() {
 
 </body>
 </html>
-
